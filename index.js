@@ -1,5 +1,6 @@
 import { Sequelize } from "sequelize";
 import sequelize from "./connect.js";
+
 import detalhes_imoveis from "./detalhesimovel.js";
 import reserva_imovel from "./ReservaImovel.js";
 import avaliacao_comentario from "./avaliacaocomentario.js";

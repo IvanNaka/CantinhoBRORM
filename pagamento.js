@@ -1,5 +1,6 @@
 import { DataTypes } from "sequelize";
 import sequelize from "./connect.js";
+import reserva_imovel from "./ReservaImovel.js";
 
 const pagamento = sequelize.define("pagamento", 
     {
